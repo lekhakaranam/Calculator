@@ -9,7 +9,7 @@ def index():
 
 
 @app.route('/calculate', methods=['GET', 'POST'])
-def calculate(numberstring_to_parse):
+def calculate(number_string_to_parse):
     pass
 
 
