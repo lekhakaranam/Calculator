@@ -11,7 +11,6 @@ def index():
 @app.route('/calculate', methods=['GET', 'POST'])
 def calculate(number_string_to_parse):
     exp = ExpressionEvaluator()
-
     pass
 
 
